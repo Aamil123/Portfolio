@@ -15,21 +15,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
         <style>
-            body {
-                background-color: #fff;
-                margin: 0px;
-                overflow: hidden;
-                font-family:arial;
-                color:#fff;
-            }
-            h1{
-                margin:0;
-            }
-
-            a {
-                color:#0078ff;
-            }
             #canvas{
                 width:100%;
                 height:700px;
@@ -51,9 +40,6 @@
                 padding-top:30px;
             }
         </style>
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">Aamil Nasar</a>
@@ -71,8 +57,8 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
+        <section class="canvas-wrap masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column canvas-content">
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
                 <!-- Masthead Heading-->
@@ -86,7 +72,8 @@
                 <!-- Masthead Subheading-->
                 <p class="masthead-subheading font-weight-light mb-0">Student - Web Designer - Programmer</p>
             </div>
-        </header>
+            <div id="canvas" style="height: 750px;" class="gradient"></div>
+        </section>
         <!-- About Section-->
         <section  class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
@@ -197,8 +184,6 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script src="backroundjs/three.min.js"></script>
-      
-        <!-- Helpers -->
         <script src="backroundjs/projector.js"></script>
         <script src="backroundjs/canvas-renderer.js"></script>
 
