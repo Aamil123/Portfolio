@@ -8,7 +8,6 @@ var colors = new Array(
   [255,128,0]);
 
 
-//  
 
 var step = 0;
 //color table indices for: 
