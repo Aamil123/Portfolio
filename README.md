@@ -1,3 +1,2 @@
-<a>aamil123.github.io/Portfolio/</a>
-This is my personal website,check it out.
-On this Portfolio my details are not up to date so am creating a new website. And it work will complete soon
+<h1>Hi I am Aamil Nasar. I am a fornt-end web developper.</h1>
+<h3>This is my personal website <a href="https://aamil123.github.io/Portfolio/">LINK</a>. But this website wants some updations i will do it on my summer vacation soon.</h3>
